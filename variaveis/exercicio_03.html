@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valorCompra = prompt("Digeite o valor da compra: R$ ");
+        valorCompra = Number(valorCompra)
+
+        let compraVista = valorCompra * 0.9;
+        compraVista = Number(compraVista);
+
+        let compraParcelada = valorCompra / 3;
+
+        alert("A compra à vista tera um desconto de 10% e o valor será de R$: " + compraVista.toFixed(2));
+        alert("Caso queira parcelar, em até 3 vezes, cada parcela sera de: R$  " + compraParcelada.toFixed(2));
+    </script>
+    
+    
+</body>
+</html>
